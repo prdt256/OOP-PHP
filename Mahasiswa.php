@@ -20,5 +20,13 @@ class Mahasiswa
             'programStudi' => $this->programStudi
         ];
     }
+
+    // method baru
+    function tampilkanData()
+    {
+        echo "NIM : " . $this->nim . "<br>";
+        echo "Nama : " . $this->nama . "<br>";
+        echo "Program Studi : " . $this->programStudi . "<br><br>";
+    }
 }
 ?>
